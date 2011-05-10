@@ -144,3 +144,24 @@ img.controls {
   color: #444;
 }
 
+#about div {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about p {
+  color: #888;
+  font-style: oblique;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+#about dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+#about dd {
+  color: #888;
+}
