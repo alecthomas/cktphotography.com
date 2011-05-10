@@ -1,0 +1,146 @@
+html, body {
+  background: black;
+  color: white;
+  font-family: "Josefin Sans Std Light", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1;
+  /*overflow: hidden;*/
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#heading {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  padding: 0px;
+}
+
+#subheading {
+  font-size: 1.3em;
+  color: #bbb;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.transition-color * {
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-property: color;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-timing-function: linear;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #888;
+  margin: 1em;
+}
+
+#menu li {
+  list-style-type: none;
+  display: inline;
+}
+
+#menu li:after {
+  content: "|";
+}
+
+#menu li.last:after {
+  content: "";
+}
+
+#menu a {
+  font-size: 1em;
+  text-decoration: none;
+  padding: 4px 8px;
+  color: #888;
+}
+
+#menu a:hover {
+  color: #fff;
+}
+
+img {
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+}
+
+.corporate img {
+}
+
+#slideshow {
+  cursor: pointer;
+  margin-bottom: 8px;
+  width: 750px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+.corporate #slideshow {
+  display: block;
+}
+
+#slideshow > div {
+  width: 750px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+#slideshow > div.first {
+  display: block;
+}
+
+#slideshow img.slide {
+}
+
+#slideshow .caption {
+  color: #888;
+}
+
+#controls {
+  cursor: pointer;
+}
+
+img.controls {
+  position: absolute;
+  left: 37%;
+  top: 32%;
+  z-index: 100;
+  background: none;
+  border: none;
+  width: 200px;
+  height: 200px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8em;
+  color: #444;
+}
+
