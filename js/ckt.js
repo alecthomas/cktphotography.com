@@ -97,7 +97,7 @@ $(document).ready(function () {
           paused = false;
           clearTimeout(pauseTimer);
           $('.controls').remove();
-          $('.caption', next).before('<img class="controls" src="images/pause.png">');
+          $('.slide', next).after('<img class="controls" src="images/pause.png">');
           resetControls();
         }
       });
